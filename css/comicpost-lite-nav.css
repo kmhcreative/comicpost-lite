@@ -1,0 +1,32 @@
+	.comic-nav {
+		display: flex;
+		justify-content: space-between;
+	}
+	.comic-nav-base {
+		display: inline-block;
+		transition-duration: 0s;
+	}
+	.post-thumbnail {
+		z-index: 10 !important;
+	}
+	.comic.require-login {
+		background-color: white;
+		border: 2px solid red;
+	}
+		.comic.require-login p {
+			display: block;
+			box-sizing: border-box;
+			text-align: center;
+			padding: 50px;
+			word-wrap: normal;
+		}
+				
+@media screen and (max-width: 550px){
+	.comic-nav {
+		display: block;
+		text-align: center;
+	}
+	.comic-nav-base {
+		margin: 5px;
+	}
+}
